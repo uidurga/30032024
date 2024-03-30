@@ -1,0 +1,32 @@
+.content{
+    display: inline-flex;
+    width: 100%;
+    padding: 5px 0;
+}
+.content .c_left{
+    width: 50%;
+    background-color: #f3f3f3;
+    padding: 15px 0;
+}
+.content .c_right{
+    width: 50%;
+    padding: 15px 0;
+    background-color: #f6f6f6;
+}
+.left_content{
+    width: 50%;
+}
+.inner_box{
+    width: 175px;
+    border:1px rgb(168, 152, 152) solid;
+    padding: 10px 10px;
+    margin: 10px;
+    display: inline-block;
+}
+.left_content,.right_content{
+    width:50%;
+    display: inline-table;
+}
+.left_content a{
+    color:blue
+}

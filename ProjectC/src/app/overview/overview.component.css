@@ -1,0 +1,29 @@
+.Project_overview{
+    padding: 5px 0;
+    margin-left: 10px;
+}
+.Project_overview h5{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+}
+.Project_overview_content{
+    margin-left: 10px;
+    display: flex;
+    width: 100%;;
+}
+.Project_overview_content .last{
+    width:60%;
+}
+.Project_overview_content .last p{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+.right_dropdown{
+    text-align: right;
+    width: 100%;
+    margin-right: 25px;
+    position: relative;
+    top: -20px;
+}

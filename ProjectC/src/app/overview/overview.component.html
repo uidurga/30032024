@@ -1,0 +1,21 @@
+<div class="Project_overview">
+    <h5>Overview</h5>
+</div>
+<div class="Project_overview_content">
+   <div class="last"><p>Last data refreshed 20 minites ago. Next update date {{today | date:'dd-MM-yyyy':'+0530'}}</p></div>
+   <div class="right_dropdown">
+    <div *ngFor="let Quarter of data.Years">
+        <mat-form-field appearance="outline" class="mat-type ">
+            <mat-label><strong> Quarter-to-date </strong> </mat-label>
+            <mat-select [(value)]="Quarter.Year">
+                <mat-option *ngFor="let type of Quarters" [value]=type.code>
+                    {{type.name}}
+                </mat-option>
+            </mat-select>
+            <mat-error >
+                Quarters is <strong>required</strong>
+            </mat-error>
+          </mat-form-field>
+          </div>
+   </div>
+</div>
